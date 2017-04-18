@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>spirograph</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <canvas id="spirograph"></canvas>
+    <table class="setting-table">
+      <tr>
+        <th>base-r</th>
+        <td><input type="text" id="base-r" value="150" /></td>
+      </tr>
+      <tr>
+        <th>gear-r</th>
+        <td><input type="text" id="gear-r" value="80" /></td>
+      </tr>
+      <tr>
+        <th>point-r</th>
+        <td><input type="text" id="point-r" value="50" /></td>
+      </tr>
+      <tr>
+        <th>base-angle-update-rate</th>
+        <td><input type="text" id="base-angle-update-rate" value="0.01" /></td>
+      </tr>
+      <tr>
+        <th>gear-angle-update-rate</th>
+        <td><input type="text" id="gear-angle-update-rate" value="-0.01" /></td>
+      </tr>
+      <tr>
+        <th>base-color</th>
+        <td>
+          <input type="text" id="base-color-r" value="255" />
+          <input type="text" id="base-color-g" value="0" />
+          <input type="text" id="base-color-b" value="0" />
+        </td>
+      </tr>
+      <tr>
+        <th>point-color</th>
+        <td>
+          <input type="text" id="point-color-r" value="0" />
+          <input type="text" id="point-color-g" value="0" />
+          <input type="text" id="point-color-b" value="255" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: right;">
+          <input type="button" id="update-btn" value="update" />
+          <input type="button" id="clear-btn" value="clear" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+#spirograph {
+  float: left;
+}
+
+.setting-table {
+  float: left;
+  margin: 0 5px;
+  border-collapse: collapse;
+}
+
+.setting-table th, .setting-table td {
+  padding: 3px;
+  border: 1px solid #eee;
+}
+
+.setting-table th {
+  text-align: left;
+}
+
+.setting-table input[type="text"] {
+  width: 50px;
+  text-align: right;
+}
